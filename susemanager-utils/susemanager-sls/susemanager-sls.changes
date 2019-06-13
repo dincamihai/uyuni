@@ -1,3 +1,4 @@
+- Use Adler32 to generate the `server_id` grain for new salt clients
 - Make sure dmidecode is installed during bootstrap to ensure that hardware
   refresh works for all operating systems
 - Prevent stuck Actions when onboarding KVM host minions (bsc#1137888)
